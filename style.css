@@ -4,13 +4,19 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden;
-    zoom: 100%;
+
 }
-#feedimage{
+/* #feedimage{
     width: 520px;
     float: right;
     margin-top: 110px;
+} */
+#feedimage {
+    width: 100%; /* Ensure the image scales based on container */
+    max-width: 40vw; /* Set a relative width based on viewport width */
+    margin-top: 10vh;
 }
+
 @media (max-width:1300px){
     #feedimage{
         display: none;
