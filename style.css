@@ -1,0 +1,463 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+#feedimage{
+    width: 520px;
+    float: right;
+    margin-top: 110px;
+}
+@media (max-width:1300px){
+    #feedimage{
+        display: none;
+    }
+}
+form{
+    margin-top: 130px;
+    width: 440px;
+    height: 520px;
+    border: 1px solid #00000023;
+    display: flex;
+    flex-direction: column;
+    
+}
+.image1{
+    margin: 40px;
+    width: 250px;
+    margin-left: 87px;
+    margin-top: 45px;
+}
+
+input{
+    width: 340px;
+    padding: 9px;
+    border-radius: 4px;
+    background-color: #eeeeee56;
+    display: flex;
+    margin: auto;
+    margin-top: 7px;
+    border: 1px solid #c5c4c4;
+
+}
+input::placeholder{
+    font-size: 15px;
+
+}
+#button{
+background-color:rgba(47, 178, 253, 0.979);
+width: 340px;
+margin: auto;
+display: flex;
+border-radius: 10px;
+margin-top: -7px;
+cursor:default;
+}
+span{
+    font-weight: bold;
+    margin-left: 130px;
+}
+hr{
+    width: 140px;
+    
+    
+}
+.hr1{
+    margin-left:45px ;
+    margin-right: 20px;
+}
+.hr2{
+    margin-left:20px ;
+    margin-right: 45px;
+}
+#hrp{
+margin-top: 10px;
+font-size: 15px;
+}
+#or{
+    margin-top: 20px;
+}
+#fbimg{
+    width: 22px;
+    height: 22px;
+}
+#fblogindiv{
+    margin-top: 20px;
+  margin-left:115px ;
+  cursor: pointer;
+}
+#fblogin{
+    font-weight: bold;
+    color: rgb(1, 1, 131);
+    font-size: 16px;
+    margin-left: 10px;
+}
+#forgetpass{
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.signup{
+    margin-top: 15px;
+    width: 440px;
+    border: 1px solid #00000023;
+}
+#signup{
+    padding: 15px;
+    font-size: 16px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 9px;
+}
+#signuplink{
+color:rgba(0, 119, 255, 0.767);
+font-weight: bold;
+text-decoration: none;
+}
+#getapp{
+    margin-left: 180px;
+    font-size: 17px;
+}
+#storeslink{
+    margin-left: 60px;
+    margin-top: 20px;
+    width: 320px;
+    gap: 10px;
+}
+#playstore{
+    width: 1000px;
+}
+
+@media (max-width:1300px){
+    #formside{
+        
+       margin-left: -200px;
+    }
+
+}
+@media (max-width:1000px){
+    #formside{
+       margin-left: 135px;
+    }
+}
+@media (max-width:750px){
+    #formside{
+       margin-left: 35px;
+    }
+}
+@media (max-width:550px){
+  
+    form{
+    margin-top: 130px;
+    width: 320px;
+    height: 450px;
+    border: 1px solid #00000023;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.image1{
+    margin: 10px;
+    width: 180px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+input{
+    width: 300px;
+    padding: 9px;
+    border-radius: 4px;
+    background-color: #eeeeee56;
+    display: flex;
+    margin: auto;
+    margin-top: 7px;
+    border: 1px solid #c5c4c4;
+
+}
+input::placeholder{
+    font-size: 15px;
+
+}
+#button{
+background-color:rgba(47, 178, 253, 0.979);
+width: 300px;
+margin: auto;
+display: flex;
+border-radius: 10px;
+margin-top: -7px;
+cursor:default;
+}
+span{
+    font-weight: bold;
+    margin-left: 110px;
+}
+hr{
+    width: 100px;
+    
+    
+}
+.hr1{
+   
+    margin-right: 5px;
+}
+.hr2{
+    margin-left:5px ;
+    margin-right: 20px;
+}
+#hrp{
+margin-top: 10px;
+font-size: 14px;
+}
+#or{
+    margin-top: 20px;
+}
+#fbimg{
+    width: 16px;
+    height: 16px;
+}
+#fblogindiv{
+    margin-top: 20px;
+  margin-left:70px ;
+  cursor: pointer;
+}
+#fblogin{
+    font-weight: bold;
+    color: rgb(1, 1, 131);
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: -3px;
+}
+#forgetpass{
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.signup{
+    margin-top: 15px;
+    width: 320px;
+    border: 1px solid #00000023;
+}
+#signup{
+    padding: 15px;
+    font-size: 16px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 9px;
+}
+#signuplink{
+color:rgba(0, 119, 255, 0.767);
+font-weight: bold;
+text-decoration: none;
+}
+#getapp{
+    margin-left: 120px;
+    font-size: 15px;
+}
+#storeslink{
+    margin-left: 60px;
+    margin-top: 20px;
+    width: 200px;
+    gap: 10px;
+}
+#playstore{
+    width: 1000px;
+}
+}
+
+
+#list1{
+    margin-top: 130px;
+    flex-wrap: wrap;
+   justify-content: center;
+  gap: 29px;
+  font-size: 15px;
+  color:rgba(0, 0, 0, 0.623);
+  line-height: 30px;
+  margin-left: -30px;
+}
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+select{
+    font-size: 15px;
+    color:rgba(0, 0, 0, 0.623);
+    border: none;
+}
+@media (max-width:400px){
+  
+    form{
+    margin-top: 60px;
+    width: 280px;
+    height: 450px;
+    border: 1px solid #00000023;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.image1{
+    margin: 10px;
+    width: 180px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+input{
+    width: 265px;
+    padding: 9px;
+    border-radius: 4px;
+    background-color: #eeeeee56;
+    display: flex;
+    margin: auto;
+    margin-top: 7px;
+    border: 1px solid #c5c4c4;
+
+}
+input::placeholder{
+    font-size: 13px;
+
+}
+#button{
+background-color:rgba(47, 178, 253, 0.979);
+width: 265px;
+margin: auto;
+display: flex;
+border-radius: 10px;
+margin-top: -7px;
+cursor:default;
+}
+span{
+    font-weight: bold;
+    margin-left: 95px;
+}
+hr{
+    width: 100px;
+    
+    
+}
+.hr1{
+   margin-right: 15px;
+    margin-left:15px px;
+}
+.hr2{
+    margin-left:5px ;
+    margin-right: 5px;
+}
+#hrp{
+margin-top: 10px;
+font-size: 14px;
+}
+#or{
+    margin-top: 20px;
+    margin-left: -25px;
+}
+#fbimg{
+    width: 16px;
+    height: 16px;
+
+}
+#fblogindiv{
+    margin-top: 20px;
+  margin-left:50px ;
+  cursor: pointer;
+}
+#fblogin{
+    font-weight: bold;
+    color: rgb(1, 1, 131);
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: -3px;
+}
+#forgetpass{
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.signup{
+    margin-top: 15px;
+    width: 280px;
+    border: 1px solid #00000023;
+}
+#signup{
+    padding: 15px;
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 9px;
+}
+#signuplink{
+color:rgba(0, 119, 255, 0.767);
+font-weight: bold;
+text-decoration: none;
+}
+#getapp{
+    margin-left: 100px;
+    font-size: 15px;
+}
+#storeslink{
+    margin-left: 42px;
+    margin-top: 20px;
+    width: 200px;
+    gap: 10px;
+}
+#playstore{
+    width: 1000px;
+}
+}
+
+
+#list1{
+    flex-wrap: wrap;
+   justify-content: center;
+  gap: 29px;
+  font-size: 15px;
+  color:rgba(0, 0, 0, 0.623);
+  line-height: 30px;
+  margin-left: -30px;
+}
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+select{
+    font-size: 15px;
+    color:rgba(0, 0, 0, 0.623);
+    border: none;
+}
+@media(max-width:1300px){
+    #list1{
+        margin-top: 150px;
+        flex-wrap: wrap;
+       justify-content: center;
+      gap: 22px;
+      font-size: 15px;
+      color:rgba(0, 0, 0, 0.623);
+      line-height: 30px;
+    }
+}
+@media(max-width:900px){
+    #list1{
+        margin-top: 150px;
+        flex-wrap: wrap;
+       justify-content: center;
+      gap: 17px;
+      font-size: 15px;
+      color:rgba(0, 0, 0, 0.623);
+      line-height: 30px;
+    }
+}
+@media(min-width:400px){
+    #list1{
+        margin-top: 100px;
+        flex-wrap: wrap;
+       justify-content: center;
+      gap: 16px;
+      font-size: 15px;
+      color:rgba(0, 0, 0, 0.623);
+      line-height: 20px;
+    }
+}
